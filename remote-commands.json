@@ -1,0 +1,19 @@
+[
+    {
+        "description": "Sleep display",
+        "command":  "pmset displaysleepnow && 'Success: display put to sleep'"
+    },
+    {
+        "description": "Current directory",
+        "command":  "pwd"
+    },
+    {
+        "description": "mute",
+        "command": "osascript -e 'set volume output muted true'"
+    },
+    {
+        "description": "unmute",
+        "command": "osascript -e 'set volume output muted false'"
+    }        
+]
+
